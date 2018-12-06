@@ -1,0 +1,2 @@
+proxy = "https://cors-anywhere.herokuapp.com/";
+//api = "https://api.uber.com/v1.2/estimates/price?start_latitude=37.7752315&start_longitude=-122.418075&end_latitude=37.7752415&end_longitude=-122.518075";

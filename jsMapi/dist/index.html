@@ -1,0 +1,95 @@
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Find your ride : Get fare estimates from leading taxi services</title>
+</head>
+<body>
+	<div class="main-container">
+		<!-- <div class="message-main">
+			<div class="message-popup">
+			</div>
+			<div class="message">cannot find cabs</div>	
+		</div> -->
+		
+		<div class="header">
+			<div class="header__title">
+				<h2 class="header__title-main">find your ride</h2>
+			</div>
+			<div class="search">
+				<div class="search__form">
+					<form class="search__form-form">
+						<div class="search__form-location">
+							<i class="fas fa-map-marker-alt location-start"></i>
+							<i class="fas fa-map-marker-alt location-end"></i>
+							<div class="location-dashed-border"></div>
+						</div>
+						<input type="text" class="search__form-text" id="search__source" placeholder="pickup" data-inputtype="source" autocomplete="off">
+						<div class="search__results search__results-source">
+							<ul>
+							<!-- <li class="search__result-item">
+								<div class="search__result-title">inox space cinema</div>
+								<div class="search__result-near">sadguru teoram marg jaipur</div>
+							</li>
+							<li class="search__result-item">
+								<div class="search__result-title">inox space cinema</div>
+								<div class="search__result-near">sadguru teoram marg jaipur</div>
+							</li> -->
+						</ul>
+					</div>
+
+					<input type="text" class="search__form-text" id="search__destination" placeholder="destination" data-inputtype="destination" autocomplete="off">
+					<div class="search__results search__results-destination">
+						<ul>
+							<!--<li class="search__result-item">
+								<div class="search__result-title">inox space cinema</div>
+								<div class="search__result-near">sadguru teoram marg jaipur</div>
+							</li>
+							<li class="search__result-item">
+								<div class="search__result-title">inox space cinema</div>
+								<div class="search__result-near">sadguru teoram marg jaipur</div>
+							</li>-->
+						</ul>
+					</div>
+					<input type="submit" value="get fares" class="search__btn">
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class="cabs">
+		<div class="dot__loader" style="display:none">
+			<span class="dot__loader-dot"></span>
+			<span class="dot__loader-dot"></span>
+			<span class="dot__loader-dot"></span>
+		</div>
+		<ul class="cars__list clearfix">
+			<!-- <li class="cars__list-car">
+				<div class="car__imgwrapper">
+					<img src="https://d1a3f4spazzrp4.cloudfront.net/car-types/mono/mono-autorickshaw.png">
+				</div>
+				<div class="car__name">
+					UberAuto
+				</div>
+				<div class="car__description">
+					Auto rickshaws at the tap of a button
+				</div>
+				<div class="car__price price__loader">
+					
+				</div>
+			</li> -->
+		</ul>
+	</div>
+
+	<div class="footer">
+		<ul class="footer__links">
+			<li><a href="javascript:void(0)">home</a></li>
+			<li><a href="javascript:void(0)">api</a></li>
+			<li><a href="javascript:void(0)">contact</a></li>
+		</ul>
+	</div>
+</div>
+<script type="text/javascript" src="js/bundle.js"></script>
+</body>
+</html>

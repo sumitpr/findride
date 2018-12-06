@@ -1,0 +1,24 @@
+{
+  "name": "jsmapi",
+  "version": "1.0.0",
+  "description": "map api project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode=development",
+    "built": "webpack --mode=production",
+    "postinstall": "webpack --mode=development",
+    "start-dev": "webpack-dev-server --mode=development --open",
+    "start": "node server.js"
+  },
+  "author": "sp",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4"
+  }
+}
